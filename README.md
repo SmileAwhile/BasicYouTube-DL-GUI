@@ -3,6 +3,8 @@
 Really basic, simple, gui for youtube-dl.  First thing I've really tried to do.
 Done in python and glade.
 
+# INSTRUCTIONS
+
 >Enter/Paste in YouTube Video URL
 
 >Select directory to save file in
