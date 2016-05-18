@@ -8,7 +8,7 @@ from gi.repository import Gtk
 
 class Handler:
 
-    # handle changing or radio buttons
+    # handle changing of radio buttons
     def onToggleMP4(self, button):
         global state
         if button.get_active():
@@ -58,20 +58,13 @@ urlTXT = builder.get_object("urlTXT")
 fileTXT = builder.get_object("fileTXT")
 fileCH = builder.get_object("fileCH")
 
-
-
 builder.connect_signals(Handler())
-
-
 
 # state of radio buttons initialized to mp4
 global state
 state = 0
 
-
 window = builder.get_object("mainWND")
-
-
 
 window.connect("delete-event", Gtk.main_quit)  # exit program
 window.show_all()
