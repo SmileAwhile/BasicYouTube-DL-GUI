@@ -51,7 +51,7 @@ class Handler:
 
 
 builder = Gtk.Builder()
-builder.add_from_file("/home/corey/YTDL.glade")
+builder.add_from_file("YTDL.glade")
 
 # reference to gui objects
 urlTXT = builder.get_object("urlTXT")
